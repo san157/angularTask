@@ -1,0 +1,172 @@
+.buyLb2, .buyLb1 { font-size: 14px;}
+.buySec {padding: 32px;text-align: center;}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0;
+	
+	
+}
+
+.col2{margin-top: 21px;}
+.inBorder {border-bottom: 1px solid #fff;border-top: 0px;border-left: 0px;border-right: 0px;font-size: 16px;width: 160px;height: 60px;}
+input[type=number] {color: #fff;background-color: transparent; text-align: center; overflow: hidden;}
+
+.pBtn{margin-top: 26px;height: 50px;width: 182px;background-color: #fff;color: gold;font-size: 16px;}
+
+.dollar{
+	display:inline-block;
+	position: relative;
+	}
+.dollar input{
+	padding-left:15px;
+	font-size: 20px;
+	}
+.dollar:before {
+	position: absolute;
+	content:"₹";
+	left: -5px;
+	top: 16px;
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+    height: 44px;
+	}
+.gram{
+	display:inline-block;
+	position: relative;
+	}
+.gram input{
+	padding-left:15px;
+	font-size: 20px;
+	}
+
+.gram:after {
+	position: absolute;
+	content:"gm";
+	left: 157px;
+	top: 27px;
+    font-size: 20px;
+    border-bottom: 1px solid #fff;
+    height: 33px;
+	}
+.faq1 {background-color: #fff;border: 1px solid #fff;border-radius: 3px;padding: 15px;margin-top: 25px; -webkit-animation: show 0.5s 1.5s forwards; opacity: 0;}
+.faq1 p{margin-top: 15px;margin-bottom: 43px;border-bottom: 2px solid #f6f6f6;padding-bottom: 15px;}
+.faq1 label{ color: #00c2b5; font-size: 20px; font-weight: normal;}
+.faq1 p span{ float: right; color: gray;}
+.gImg{float: left; margin-right: 10px;}
+.pLbl{ color:grey !important; font-size: 12px !important;}
+.row3 {
+    margin-top: 19px;
+    -webkit-animation: slideInUp 1s 0.5s forwards;
+    opacity: 0;
+}
+.row3 span{font-size: 23px;}
+.rightSec {float: right;}
+.lefSec{float: left;width: 300px;}
+
+.showClass { display: block;}
+.hideClass{display: none;}
+.rs { color: #000;}
+
+/*confirm purchase*/
+
+.bill{ background-color: #f7f7f7;}
+.table>tbody>tr>td{ border-top: 0px!important; height: 46px; padding: 16px;}
+.table>tbody>tr>td:nth-child(2){text-align: right;}
+.table>tbody>tr:last-child>td{text-align: center;}
+
+.cBtn{background-color: #00c2b5; color: #fff;}
+.labelBox3 {background: url(box.png) no-repeat;background-size: 100% 100%;border-radius: 12px;-webkit-box-shadow: 0 8px 6px -6px  #8de9e2;-moz-box-shadow: 0 8px 6px -6px  #8de9e2;box-shadow: 0 13px 6px -6px #8de9e2;height: 102px;padding: 31px;z-index: 1;color: #fff;}
+.labelBox3 .lb1{font-size: 24px;font-weight: 100;margin-bottom: 25px;}m
+.labelBox3 .lb2 {font-size: 16px;font-weight: 100;margin-bottom: 45px;}
+
+.labelBox3 .lb3 { font-size: 14px; font-weight: 100;}
+.labelBox3 .lb3 a { color: #fff;}
+.row4 span{font-size: 23px;}
+input[type="text"]{border: 0px;width: 219px;height: 42px;font-size: 15px;padding-left: 22px;}
+.lefSec {color: #fff;}
+.pLbl_1{ color:#fff !important; font-size: 12px !important;}
+.labelBox3 span{font-size: 20px;}
+.labelBox3 .rightSec{text-align: right;}
+.promo{
+	display:inline-block;
+	position: relative;
+	}
+.promo input{
+	padding-left:15px;
+	font-size: 17px;
+	text-align: center;
+	}
+.promo:before {
+	position: absolute;
+	content:url(promo.png);
+	background-repeat: no-repeat;
+	left: 6px;
+	top: 9px;
+	font-size: 20px;
+	}
+.glyphicon{ color: gold;}
+
+/*confirm purchase*/
+/* Recipt */
+.labelBox4 {background: url(success.png) no-repeat;background-size: 100% 100%;border-radius: 12px;-webkit-box-shadow: 0 8px 6px -6px  #8de9e2;-moz-box-shadow: 0 8px 6px -6px  #8de9e2;box-shadow: 0 13px 6px -6px #8de9e2;height: 102px;padding: 31px;z-index: 1;-webkit-animation: slideInUp 1s forwards;opacity: 0;}
+.recipt{border-radius: 10px;}
+.row5{margin-top: 20px;}
+.row5 .bill .table>tbody>tr:last-child{border-top: 1px solid grey;}
+.row5 .bill .table>tbody>tr>td>span{color: gray; font-size: 12px;}
+ .rTable>tbody>tr>td{text-align: left !important;}
+.rTable>tbody>tr:last-child>td{text-align: right !important;}
+/* Recipt */
+
+
+@media screen and (max-width: 480px) and (orientation: portrait){
+   
+    .lefSec{width: 141px;}
+    .buySec{ padding: 0px; text-align: left;}
+    .inBorder{height: 40px; width: 110px; margin-left: 90px;}
+    .dollar:before {content: ""; left: 74px; top: 6px;height: 34px; }
+.buySec div{ float: right;}
+	.labelBox .lb1,.lb2 { font-size: 12px; margin-bottom: 4px;}
+        .gram:after{ left: 143px;top: 7px; content: ""}
+        .gram input {z-index: 1;}
+        .smBtn { height: 0px;}
+        .buyLb2{ position: absolute; top :30px;}
+        .gImg{ height: 30px;}
+        .rightSec span, .lefSec span{ font-size: 14px}
+        .heading{font-size: 14px;}
+        .pBtn{height: 38px; width: 162px; margin-top: 76px;}
+        
+  }
+
+@media only screen and (max-width: 768px) {
+    .lefSec{width: 141px;}
+    .buySec{ padding: 0px; text-align: left;}
+    .inBorder{height: 40px; width: 110px; margin-left: 64px;}
+    .dollar:before {content: ""; left: 74px; top: 6px;height: 34px; }
+.buySec div{ float: right;}
+.labelBox .lb1,.lb2 { font-size: 18px; margin-bottom: 11px;}
+        .gram:after{ left: 143px;top: 7px; content: ""}
+        .gram input {z-index: 1;}
+        .smBtn { height: 0px;}
+        .buyLb2{ position: absolute; top :30px;}
+        .gImg{ height: 30px;}
+        .rightSec span, .lefSec span{ font-size: 14px}
+        .heading{font-size: 14px;}
+        
+        
+        .pBtn{margin-top: 71px;}
+        .gram{float: right;}
+       
+}
+
+
+
+  
+
+  @media only screen and (max-width: 320px)
+  {
+      
+       .lb1 { font-size: 12px; margin-bottom: 4px;}
+       .pBtn{ margin-top: 26px;}
+       .sub-nav{display: none;}
+    }

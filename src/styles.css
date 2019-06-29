@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+ 
+body{ background-color: #fcfcfc; overflow: hidden; font-family: 'Open Sans',serif;}
+.navbar-inverse { background-color: transparent !important; border: none !important;}
+input[type=text]:focus {outline-width:0 !important; outline-color:#00b5a6;}
+.navbar-inverse .navbar-nav>li>a, .sub-nav>li>a { color: #000;}
+.navbar-inverse .navbar-nav>li>a:hover{color: gold;}
+
+.navbar-inverse .navbar-nav>li:hover{ background-color: gray; display: block;}
+
+.imageLast {float: left; height: 40px; width: 40px; padding: 0px; background: url(assets/lastImg.png) no-repeat; background-size: 100% 100%;}
+
+@media only screen and (max-width: 768px) {
+	body{overflow: scroll;}
+	.sub-nav{display: none;}
+	.nav li{text-align: center;}
+	.hClass{display: none;}
+	
+
+}
+.heading { font-size: 24px; -webkit-animation: slideInUp 1s forwards; opacity: 0;}
+
+.labelBox {
+    /* background-image: linear-gradient(to right, rgba(0,164,148,1), rgba(0,191,178,1)); */
+    background: url(box.png) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 12px;
+    -webkit-box-shadow: 0 8px 6px -6px #8de9e2;
+    -moz-box-shadow: 0 8px 6px -6px #8de9e2;
+    box-shadow: 0 13px 6px -6px #8de9e2;
+    height: 200px;
+	padding: 20px;
+	color: #fff;
+    -webkit-animation: slideInUp 1s forwards;
+    opacity: 0;
+}
+
+a:active{ color: red;}
+
+
+
+/*animatoin*/
+
+.row1{
+	-webkit-animation: slideInUp 1s;
+	animation: slideInUp 1s;
+  }
+  @-webkit-keyframes slideInUp {
+	from {
+	  -webkit-transform: translate3d(0, 100%, 0);
+	  transform: translate3d(0, 100%, 0);
+	  visibility: visible;
+	}
+  
+	to {
+	  -webkit-transform: translate3d(0, 0, 0);
+	  transform: translate3d(0, 0, 0);
+		opacity: 1;
+	}
+  }
+  
+  @keyframes slideInUp {
+	from {
+	  -webkit-transform: translate3d(0, 100%, 0);
+	  transform: translate3d(0, 100%, 0);
+	  visibility: visible;
+	}
+  
+	to {
+	  -webkit-transform: translate3d(0, 0, 0);
+	  transform: translate3d(0, 0, 0);
+		opacity: 1;
+	}
+  }
+  
+  @-webkit-keyframes show{
+	  0%{opacity: 0;}
+	  100%{opacity: 1;}
+  }
+  
+  /*animatoin*/

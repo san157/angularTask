@@ -1,0 +1,120 @@
+.labelBox {/*       background-image: linear-gradient(to right, rgba(0,164,148,1), rgba(0,191,178,1));*/background: url(box.png) no-repeat;background-size: 100% 100%;border-radius: 12px;-webkit-box-shadow: 0 8px 6px -6px  #8de9e2;-moz-box-shadow: 0 8px 6px -6px  #8de9e2;box-shadow: 0 13px 6px -6px #8de9e2;height: 200px;padding: 20px;  -webkit-animation: slideInUp 1s forwards; opacity: 0;}
+.labelBox .lb1{font-size: 24px;font-weight: 100;margin-bottom: 25px;}m
+.labelBox .lb2 {font-size: 16px;font-weight: 100;margin-bottom: 45px;}
+
+.labelBox .lb3 { font-size: 14px; font-weight: 100;}
+.labelBox .lb3 a { color: #fff;}
+
+
+
+
+.labelBox .btn{ background-color: none !important;}
+
+.labelBox p {margin-top: 42px;}
+
+.row2{margin-top: 90px;  -webkit-animation: slideInUp 1s 0.5s forwards; opacity: 0;}
+.Cplan {background-color: #fff;border: 1px solid #fff;border-radius: 3px;padding: 15px;}
+.Cplan p{margin-top: 20px;margin-bottom: 43px;}
+.btn1{margin-left: 110px;font-size: 18px;margin-bottom: 36px;background-color: #00b5a6;color: #fff;}
+.row2 label{ color: #00c2b5; font-size: 20px; font-weight: normal;}
+.bgImg {height: 220px;width: 349px;background: url(bangle.jpg) no-repeat;background-size: 100% 100%;padding: 0px;border-radius: 3px;}
+.imgPad { padding-left: 0px !important;}
+/*Column 2*/
+.col2{margin-top: 10px;}
+.col2 img{border-radius: 5px;height: 203px;width: 352px; -webkit-animation: show 1s 0.5s forwards; opacity: 0;}
+.col2 figcaption{ margin-bottom: 9px; font-size: 16px;}
+.col2 li {list-style-type: none;font-size: 17px;background-image: url(play.png);background-repeat: no-repeat;line-height: 32px;padding-left: 41px;margin-top: 20px;height: 40px;  -webkit-animation: show 0.5s 1s forwards; opacity: 0;}
+.col2 li span{ color: grey;}
+.faq {background-color: #fff;border: 1px solid #fff;border-radius: 3px;padding: 15px;margin-top: 25px; -webkit-animation: show 0.5s 1.5s forwards; opacity: 0;}
+.faq p{margin-top: 20px;margin-bottom: 43px;}
+.faq label{ color: #00c2b5; font-size: 20px; font-weight: normal;}
+.faq p span{ float: right; color: grey;}
+
+
+
+/*Column 2*/
+
+
+/*animatoin*/
+
+.row1{
+  -webkit-animation: slideInUp 1s;
+  animation: slideInUp 1s;
+}
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+	  opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+	  opacity: 1;
+  }
+}
+
+@-webkit-keyframes show{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+/*animatoin*/
+
+@media only screen and (max-width: 768px) {
+	body{overflow: scroll;}
+
+	.heading {font-size: 25px;}
+	.labelBox p { margin-top: 11px;}
+	.labelBox { height: 123px;}
+	.row2 {margin-top: 30px; text-align: center;}
+	.btn1{margin: auto;}
+	.bgImg{margin: auto;}
+	.Cplan {margin-top: 16px;}
+	.col2 li{font-size: 15px; margin-top: 15px;}
+	.col2 figcaption{text-align: center;}
+	.nav li{text-align: center;}
+  .sub-nav, .nav li i{display: none;}
+  
+
+}
+
+@media only screen and (max-width: 320px)
+  {
+      
+       .labelBox .lb1, .lb2 { font-size: 12px; margin-bottom: 4px;}
+    }
+
+    @media screen and (max-width: 480px) and (orientation: portrait){
+   
+      .lefSec{width: 141px;}
+      .buySec{ padding: 0px; text-align: left;}
+      .inBorder{height: 40px; width: 110px; margin-left: 90px;}
+      .dollar:before {content: ""; left: 74px; top: 6px;height: 34px; }
+  .buySec div{ float: right;}
+    .labelBox .lb1,.lb2 { font-size: 12px; margin-bottom: 4px;}
+          .gram:after{ left: 143px;top: 7px; content: ""}
+          .gram input {z-index: 1;}
+          .smBtn { height: 0px;}
+          .buyLb2{ position: absolute; top :30px;}
+          .gImg{ height: 30px;}
+          .rightSec span, .lefSec span{ font-size: 14px}
+          .heading{font-size: 14px;}
+          .pBtn{height: 38px; width: 162px; margin-top: 76px;}
+          
+    }
